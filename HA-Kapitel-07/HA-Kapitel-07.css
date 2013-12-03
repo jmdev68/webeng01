@@ -12,8 +12,11 @@
 	/* position:fixed;*/
 	margin:20px;
 	height:20px;
+	
+}
+
+h1 {
 	color:#06246F;
 	font-size:140%;
 	
 }
-
