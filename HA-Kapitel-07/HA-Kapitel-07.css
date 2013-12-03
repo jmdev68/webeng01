@@ -1,0 +1,19 @@
+
+/* @CHARSET "UTF-8"; */
+
+
+* {
+	font-family:verdana, sans-serif;
+	background-color:white;
+	/* font-size:10px; */
+}
+
+#header {
+	/* position:fixed;*/
+	margin:20px;
+	height:20px;
+	color:#06246F;
+	font-size:140%;
+	
+}
+
