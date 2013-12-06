@@ -4,7 +4,7 @@
 
 * {
 	font-family:verdana, sans-serif;
-	background-color:white;
+	/* background-color:white; */
 	/* font-size:10px; */
 }
 
@@ -19,4 +19,18 @@ h1 {
 	color:#06246F;
 	font-size:140%;
 	
+}
+
+form {
+	margin:20px;
+	padding:10px;
+	background-color:#6C8AD5; 
+	
+}
+
+table {
+	border:1px;
+	border-color:#06246F;
+	margin:20px;
+	 
 }
