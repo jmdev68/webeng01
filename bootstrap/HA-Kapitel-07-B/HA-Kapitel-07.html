@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <title>Homework Kap 7 - Wikipedia Search Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Joerg Meier" content="">
+    <meta name="author" content="Joerg Meier">
 
-    <!-- Le styles -->
+    
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
+    
+    <!-- <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
       }
-    </style>
+    </style> -->
+    
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,7 +29,7 @@
 </head>
 <body>
 	
-	<div class="container">
+	
     
     <ul class="breadcrumb">
     	<li><a href="../bootstrap-index.html">Home</a> </li>
@@ -35,21 +37,27 @@
     </ul>
     		
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hausaufgabe Kapitel 7</h1>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+      	<div class="container">
+      		<h1>Hausaufgabe Kapitel 7</h1>
         <p>Wikipedia Search Form</p>
-      </div>
+      	</div>
+     </div>
+     
 	
+	<div class="container">
 	
 	<form action="http://de.wikipedia.org/wiki/Spezial:Suche" class="form-search">
 	    <fieldset>
 		    <legend>Suchen</legend>
 		    <label for="t1">Stichwort:</label>
-		    <input type="text" id="t1" placeholder="Type something…">
+		    <input type="text" id="t1" name="search" value="" placeholder="Type something…" />
 		    <span class="help-block">Example block-level help text here.</span>
-		    <button type="submit" class="btn">suche Artikel</button>
-		    <button type="submit" class="btn">suche Volltext</button>
+		    <input type="submit" name="go" value="suche Artikel"/>
+	      	<input type="submit" name="fulltext" value="suche Volltext" />
+<!-- 		    <input type="submit" class="btn">suche Artikel</button> -->
+<!-- 		    <input type="submit" class="btn">suche Volltext</button> -->
 	    </fieldset>
     </form>
 	
@@ -67,17 +75,17 @@
 	   	</fieldset>
 	</form> -->
 	
-	
+	<p><p/>
 	
 	
 	<footer>
-        <p>&copy; JM 2013 <p> 
+        <p>&copy; JM 2013, 2014 <p> 
         <p> <a href="http://glyphicons.com">Glyphicons Free</a>
 			licensed under
 			<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
 		</p>
     	<p>
-	    	<a href="http://validator.w3.org/check?uri=http://joergmeier.cloudcontrolled.com/HA-Kapitel-06/HA-Kapitel-06.html">
+	    	<a href="http://validator.w3.org/check?uri=http://joergmeier.cloudcontrolled.com/bootstrap/HA-Kapitel-07-B/HA-Kapitel-07.html">
 				<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
 			</a>
 			
@@ -86,7 +94,13 @@
 				        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
 				        alt="CSS ist valide!" />
 			</a>
+			<a href='http://wave.webaim.org/report#/http://joergmeier.cloudcontrolled.com/bootstrap/HA-Kapitel-07-B/HA-Kapitel-07.html' target='_blank' title=''>
+					<img src="../wcag2AAA.gif" alt="WCAG 2.0 AAA conform" height="31" width="88" />
+				  </a>
+			
 		</p>
+		
+		
     </footer>
 	
 </div> <!-- /container -->
